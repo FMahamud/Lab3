@@ -16,6 +16,8 @@ public class AddressBook {
         book.remove(index);
     }
 
+    public void regFunction(){ System.out.println("Part 3: Step 4");}
+
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
         AddressBook book = new AddressBook();
