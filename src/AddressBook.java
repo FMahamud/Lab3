@@ -12,15 +12,16 @@ public class AddressBook {
         book.add(bud);
     }
 
-    public void removeBuddy(BuddyInfo bud){
-        book.remove(bud);
+    public void removeBuddy(int index){
+        book.remove(index);
     }
 
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
         AddressBook book = new AddressBook();
         book.addBuddy(buddy);
-        book.removeBuddy(buddy);
+        book.removeBuddy(0);
+        System.out.println("It works");
     }
 
 }
