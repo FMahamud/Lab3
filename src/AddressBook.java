@@ -23,6 +23,7 @@ public class AddressBook {
         book.removeBuddy(0);
         System.out.println("It works");
         System.out.println("Try again");
+        System.out.println("Part 2: Step 18");
     }
 
 }
